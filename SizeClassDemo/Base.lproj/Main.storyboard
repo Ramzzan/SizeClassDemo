@@ -31,26 +31,53 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="bPM-9c-Mb2" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="0de-9E-QMD"/>
                             <constraint firstItem="Afg-ib-1AA" firstAttribute="top" secondItem="bPM-9c-Mb2" secondAttribute="bottom" constant="20" id="7LB-pr-T6N"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Afg-ib-1AA" secondAttribute="trailing" constant="20" id="7Nt-xc-WvL"/>
+                            <constraint firstItem="Afg-ib-1AA" firstAttribute="leading" secondItem="bPM-9c-Mb2" secondAttribute="trailing" constant="20" id="BMt-jD-xmW"/>
                             <constraint firstItem="bPM-9c-Mb2" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="BOK-Rj-8gD"/>
+                            <constraint firstItem="Afg-ib-1AA" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="KRc-t5-SsZ"/>
+                            <constraint firstItem="bPM-9c-Mb2" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.5" constant="44" id="MJw-wa-9IG"/>
                             <constraint firstItem="Afg-ib-1AA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="QQD-Ho-0w7"/>
                             <constraint firstItem="bPM-9c-Mb2" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Vqf-Id-PJy"/>
-                            <constraint firstItem="bPM-9c-Mb2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="XEM-ZF-HXn"/>
+                            <constraint firstItem="bPM-9c-Mb2" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="XEM-ZF-HXn"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Afg-ib-1AA" secondAttribute="trailing" constant="20" id="Xwv-bz-ddl"/>
+                            <constraint firstAttribute="bottom" secondItem="bPM-9c-Mb2" secondAttribute="bottom" id="vSo-Kr-xH9"/>
                             <constraint firstItem="bPM-9c-Mb2" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.5" id="zxN-aZ-iTe"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
+                                <exclude reference="0de-9E-QMD"/>
+                                <exclude reference="BOK-Rj-8gD"/>
+                                <exclude reference="MJw-wa-9IG"/>
                                 <exclude reference="Vqf-Id-PJy"/>
+                                <exclude reference="vSo-Kr-xH9"/>
                                 <exclude reference="zxN-aZ-iTe"/>
+                                <exclude reference="7Nt-xc-WvL"/>
+                                <exclude reference="Xwv-bz-ddl"/>
                                 <exclude reference="7LB-pr-T6N"/>
+                                <exclude reference="BMt-jD-xmW"/>
+                                <exclude reference="KRc-t5-SsZ"/>
                                 <exclude reference="QQD-Ho-0w7"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact">
+                            <mask key="constraints">
+                                <include reference="0de-9E-QMD"/>
+                                <include reference="MJw-wa-9IG"/>
+                                <include reference="XEM-ZF-HXn"/>
+                                <include reference="vSo-Kr-xH9"/>
+                                <include reference="7Nt-xc-WvL"/>
+                                <include reference="BMt-jD-xmW"/>
+                                <include reference="KRc-t5-SsZ"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular">
                             <mask key="constraints">
+                                <include reference="BOK-Rj-8gD"/>
                                 <include reference="Vqf-Id-PJy"/>
                                 <include reference="zxN-aZ-iTe"/>
+                                <include reference="Xwv-bz-ddl"/>
                                 <include reference="7LB-pr-T6N"/>
                                 <include reference="QQD-Ho-0w7"/>
                             </mask>
@@ -59,7 +86,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="121.73913043478262" y="92.410714285714278"/>
+            <point key="canvasLocation" x="120.28985507246378" y="91.071428571428569"/>
         </scene>
     </scenes>
     <resources>
